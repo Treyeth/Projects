@@ -9,8 +9,11 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 The analysis is made on the yield of the stock indices because the closing prices are not comparable and their associated time series is often not stationary. 
 
 The DAX Performance index, also known as Deutscher Aktienindex includes the 30 most important companies in Germany which are traded on Frankfurt stock market.
+
 CAC 40 is the reference index of the France stock market and represents a weighted measure of the 40 most important companies traded on Euronext Paris.
+
 Nikkei 225, also known as Nikkei Stock Average, is a weighted by price stock index which is traded on the Tokyo stock market.
+
 S&P 500 or Standard & Poor's 500 is a stock index from the USA which is based on the stock market capitalization of 500 big companies which are listed on the New York and Nasdaq stock exchanges.
 
 ![Screenshot](Images/histogram.png)
