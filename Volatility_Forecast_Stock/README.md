@@ -13,6 +13,10 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 | ARMA(1,0)     | **-3319.38** |
 | ARMA(1,1)     |   -3317.38    |
 | ARMA(1,2)     | 	-3315.38    |
+|ARMA(2,1)     |	-3320.07 |
+|ARMA(2,2)	|-3323.25 |
+|ARMA(2,3)	|-3320.55 |
+|ARMA(3,3)	|-3330.71 |
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -22,13 +26,17 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 
 	
 
-ARMA(2,1)	-3320.07
-ARMA(2,2)	-3323.25
-ARMA(2,3)	-3320.55
-ARMA(3,3)	-3330.71
+
+## DAX Forecast
 ![Screenshot](Images/forecast_dax.png)
+
+## CAC 40 Forecast
 ![Screenshot](Images/forecast_cac_40_mse.png)
 ![Screenshot](Images/forecast_cac_40_mae.png)
+
+## S&P 500 Forecast
 ![Screenshot](Images/forecast_s&p_500.png)
+
+## Nikkei 225 Forecast
 ![Screenshot](Images/forecast_nikkei_225_mse.png)
 ![Screenshot](Images/forecast_nikkei_225_mae.png)
