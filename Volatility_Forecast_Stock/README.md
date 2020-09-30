@@ -4,9 +4,20 @@ The scope of this project was to model the volatility of DAX Performance, CAC40,
 
 The Forecasts are generated dynamically on a 5 day period and their accuracy is measured with mean squared error (MSE) and absolute mean error (MAE). It is also searched if the model with the lowest value of the Akaike criterion generates the best forecasts.
 
+# Intro
+
+The analysis is made on the yield of the stock indices because the closing prices are not comparable and their associated time series is often not stationary. 
+
+The DAX Performance index, also known as Deutscher Aktienindex includes the 30 most important companies in Germany which are traded on Frankfurt stock market.
+CAC 40 is the reference index of the France stock market and represents a weighted measure of the 40 most important companies traded on Euronext Paris.
+Nikkei 225, also known as Nikkei Stock Average, is a weighted by price stock index which is traded on the Tokyo stock market.
+S&P 500 or Standard & Poor's 500 is a stock index from the USA which is based on the stock market capitalization of 500 big companies which are listed on the New York and Nasdaq stock exchanges.
+
 ![Screenshot](Images/histogram.png)
 
 ![Screenshot](Images/evolution_index.png)
+
+Looking at the evolution of the indices, it can be seen that the biggest decreases were recorded by the indices at the same time, at the end of July 2016 as a result of Brexit, result which sent shockwaves throughout the European Union. The fluctuations from the beginning of november 2016, which are more noticeable for S&P 500 and Nikkei 225 can be assigned to the USA presidential elections. The biggest increases for indices in Europe, CAC 40 and DAX Performance, from March 2016 can be assigned to a comeback after a decrease caused by the oil price which has decreased a lot. The increases from 27 april 2017 for the Europe indices are resulted from the France presidential election, where Emmanuel Macron has won. The last commun fluctuation was caused by fears of inflation which sent shockwaves throughout the world. 
 
 # Estimating the ARMA models, testing the autocorrelation and the heteroskedasticity
 
