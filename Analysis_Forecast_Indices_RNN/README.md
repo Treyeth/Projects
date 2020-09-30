@@ -17,3 +17,4 @@ BET, or Bucharest Exchange Trading Index, is the first stock index created by th
 SMI, Swiss Market Index, is the most followed stock index from Switzerland. It contains the 20 biggest and liquid companies from Swiss Performance Index. Here, we can find names like Swatch and Nestlé.
 
 BEL 20 is the reference index from Euronext Brussels, composed by between 10 and 20 companies listed on the stock exchange from Brussels.
+
