@@ -10,7 +10,7 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 
 | Model         | AIC value     |
 | ------------- |:-------------:| 
-| ARMA(1,0)     | 	-3319.38    |
+| ARMA(1,0)     |.  *-3319.38*. |
 | ARMA(1,1)     |   -3317.38    |
 | ARMA(1,2)     | 	-3315.38    |
 
