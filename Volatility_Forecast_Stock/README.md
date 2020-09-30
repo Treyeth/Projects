@@ -31,7 +31,7 @@ The next step which we need to take is to check for the presence of autocorrelat
 | ------------- |:-------------:| -----:| ------:| ------:| ------:| ------:|
 | DAX	        | 47.493	| 0.000 | 51.588 | 0.000  | 53.172 | 0.000
 
-| Index        | ARCH-LM        | p-value |
+| Index        | χ^2       | p-value |
 | ------------- |:-------------:| -----:|
 | DAX	        | 41.007	| 0.000 |
 
@@ -59,6 +59,42 @@ In this chapter, GARCH(1,1) and EGARCH(1,1) models will be estimated using multi
 |EGARCH-NIG	|-6.7700	|0.000006897	|0.002442|
 |EGARCH-GHYP	|-6.7607	|0.000005602	|0.002229|
 |EGARCH-SGED	|-6.7660	|0.000007001	|0.002487|
+
+It seems that for the DAX index, the model which forecasts the best on a 5 day period is the ARMA(3,3)-GARCH(1,1) with a normal inverse distribution. If we look at AIC that model would be ARMA(3,3)-EGARCH(1,1) with a t-student distribution. Based on the above table, using a different distribution for the errors for the GARCH model, influences pretty much the forecasts. 
+
+| Parameter      | DAX NIG  |
+| ------------- |:-------------:| 
+|μ              | 0.0006* |
+|ϕ_1            | -0.0449*** |
+|ϕ_2            | -0.1238*** |
+|ϕ_3            | -0.9313*** |
+|ϕ_4            | -       |
+|θ_1            | 0.0491***  |
+|θ_2            | 0.1569*** |
+|θ_3            | 0.9338*** |
+|θ_4            | -      |
+|α_0            | 0.0000 |
+|α_1            | 0.1038*** |
+|β_1            | 0.8814***|
+|Shape          | 0.8694***|
+|Skew           | 0.0335|
+
+In the above table, μ and α_0 are constants for the ARMA model and the GARCH model. ϕ_1, ϕ_2, ϕ_3, ϕ_4 belong to the Autoregressive model (AR) and θ_1, θ_2, θ_3, θ_4 to the MA model. α_1 and β_1 belong to the GARCH model while Skew and Shape are used for the different distributions of the models. 
+It can be seen that α_1 and β_1 are statistically significant and their sum being close to 1 tells us that the volatility remains over a longer period of time decreasing slowly. The EGARCH model is an asymetric model which quantifies differently the positive and negative shocks, unlike GARCH which considers positive and negative shocks as having the same impact on the conditional variance.  
+
+| Index         | Model |Q(10)         | p-value | Q(15) | p-value| Q(20) | p-value|
+| ------------- |:-------------:| -----:| ------:| ------:| ------:| ------:|------:|
+| DAX	        | GARCH-NIG | 4.9129	| 0.8969 | 6.6273 | 0.9672  | 8.2529 | 0.9901
+
+Applying the Ljung-Box over the standardised squared residuals, it can be concluded that they are independent (H0 is accepted).
+
+| Model        |  χ^2      | p-value |
+| ------------- |:-------------:| -----:|
+| DAX	GARCH-NIG        | 5.6100	| 0.8469 |
+
+After applying ARCH-LM test, the null hypothesis is accepted and we can conlude that the standardised residuals are homoskedastic.
+
+Therefore, our models are valid and it is not needed to search for other ones.
 
 ## DAX Forecast
 ![Screenshot](Images/forecast_dax.png)
