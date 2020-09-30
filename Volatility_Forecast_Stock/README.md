@@ -6,4 +6,4 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 
 ![Screenshot](Images/histogram.png)
 
-![Screenshot](Images/evolution_yield.png)
+![Screenshot](Images/evolution_index.png)
