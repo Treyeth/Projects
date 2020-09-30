@@ -27,3 +27,8 @@ ARMA(2,2)	-3323.25
 ARMA(2,3)	-3320.55
 ARMA(3,3)	-3330.71
 ![Screenshot](Images/forecast_dax.png)
+![Screenshot](Images/forecast_cac_40_mse.png)
+![Screenshot](Images/forecast_cac_40_mae.png)
+![Screenshot](Images/forecast_s&p_500.png)
+![Screenshot](Images/forecast_nikkei_225_mse.png)
+![Screenshot](Images/forecast_nikkei_225_mae.png)
