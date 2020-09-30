@@ -26,3 +26,4 @@ ARMA(2,1)	-3320.07
 ARMA(2,2)	-3323.25
 ARMA(2,3)	-3320.55
 ARMA(3,3)	-3330.71
+![Screenshot](Images/forecast_dax.png)
