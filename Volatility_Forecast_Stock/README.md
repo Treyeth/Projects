@@ -8,21 +8,24 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 
 ![Screenshot](Images/evolution_index.png)
 
+# Estimating the ARMA models, testing the autocorrelation and the heteroskedasticity
+
+In order to find the parameters of the autoregressive model (AR) and the moving average model (MA), multiple models are estimated with different values for the order of AR and MA. The model will be chosen based on the informational criterion Akaike (AIC). The model with the samllest value will be chosen as the best. 
+
+We will take as an example for the next steps the DAX index:
+
 | Model         | AIC value     |
 | ------------- |:-------------:| 
-| ARMA(1,0)     | **-3319.38** |
+| ARMA(1,0)     | -3319.38|
 | ARMA(1,1)     |   -3317.38    |
 | ARMA(1,2)     | 	-3315.38    |
 |ARMA(2,1)     |	-3320.07 |
 |ARMA(2,2)	|-3323.25 |
 |ARMA(2,3)	|-3320.55 |
-|ARMA(3,3)	|-3330.71 |
+|ARMA(3,3)	|**-3330.71** |
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Going through the previous table, we can see that the best model for DAX would be an ARMA(3,3). 
+The next step which we need to take is to check for the presence of autocorrelation and heteroskedasticity in the residuals of the ARMA model. The presence of autocorrelation is determined using the Ljung-Box test and the ARCH-LM test for the presence of heteroskedasticity.
 
 	
 
