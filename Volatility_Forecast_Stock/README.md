@@ -168,10 +168,15 @@ In the case of the Nikkei 225 index, the model has managed to capture most of th
 
 The fluctuations of the Nikkei 225 index seem to be higher than those of the European indices, Dax Performance and CAC 40. 
 
-## Conclusions
+## Forecast conclusions
 
 Comparing all the forecasts, we can conclude that the best forecasts were obtained from Europe for the CAC 40 and DAX Peformances indices, followed by Nikkei 225 from Japan and S&P 500 from SUA.
+
 Analysing the yield of the stock indices DAX Performance, CAC 40, S&P 500 and Nikkei 225 over the period 27.02.2016-27.02.2018 it was discovered that the symetric GARCH models offer better results than the asymetric EGARCH model. 
+
+The forecasts of the indices were influenced by the high volatility from the Dow Jones Industrial Average index at the beginning of the month of February. 
+
+As we've seen, the ARMA-GARCH models can learn the volatility of the stock indices pretty well and can generate short term forecasts which can be close to realty in the case that no high volatility events occur. However, in order to get the best forecasts, it is necessary to take into account different distributions of error for the GARCH and EGARCH models and to ignore the information criterion AIC because it doesn't give the best forecasting model. 
 
 
 
