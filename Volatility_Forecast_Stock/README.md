@@ -7,3 +7,22 @@ The Forecasts are generated dynamically on a 5 day period and their accuracy is 
 ![Screenshot](Images/histogram.png)
 
 ![Screenshot](Images/evolution_index.png)
+
+| Model         | AIC value     |
+| ------------- |:-------------:| 
+| ARMA(1,0)     | 	-3319.38    |
+| ARMA(1,1)     |   -3317.38    |
+| ARMA(1,2)     | 	-3315.38    |
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+	
+
+ARMA(2,1)	-3320.07
+ARMA(2,2)	-3323.25
+ARMA(2,3)	-3320.55
+ARMA(3,3)	-3330.71
