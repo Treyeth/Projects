@@ -99,6 +99,14 @@ Therefore, our models are valid and it is not needed to search for other ones.
 ## DAX Forecast
 ![Screenshot](Images/forecast_dax.png)
 
+| Ziua        | Observed Yield      | ARMA(3,3) GARCH(1,1) NIG |
+| ------------- |:-------------:| -----:|
+|21.02.2018|	|-0.0013951348|	|-0.000758114|
+|22.02.2018|	|-0.0006882673|	|0.001238773|
+|23.02.2018|	|0.0017542012|	|0.002090414|
+|26.02.2018|	|0.0034585052|	|0.001809072|
+|27.02.2018|	|-0.0029027043|	|-0.000085618|
+
 ## CAC 40 Forecast
 ![Screenshot](Images/forecast_cac_40_mse.png)
 ![Screenshot](Images/forecast_cac_40_mae.png)
