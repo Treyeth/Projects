@@ -96,7 +96,7 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 
 ### Dow Jones
 ![Screenshot](Images/Forecast_LSTM_Dow_Jones.png)
-![Screenshot](Images/Testing_GRU_Dow_Jones.png)
+![Screenshot](Images/Testing_LSTM_Dow_Jones.png)
 
 ## Forecasts
 
@@ -110,8 +110,8 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 
 ### BET
 
-![Screenshot](Images/Forecast_LSTM_BET.png)
-![Screenshot](Images/Forecast_GRU_BET.png)
+![Screenshot](Images/Testing_GRU_Dow_Jones.png)
+![Screenshot](Images/Forecast_GRU_Dow_Jones.png)
 
 ### Dow Jones
 ![Screenshot](Images/Testing_LSTM_Dow_Jones.png)
