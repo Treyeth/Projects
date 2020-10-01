@@ -79,3 +79,15 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 * January 14, 2019, decrease of 4.23%: The appearance of some information regarding a possible change of the tax on banking assets, a tax that would have been calculated and paid quarterly instead of annually.
 * February 4, 2019, growth of 3.75%: The good financial results of companies in 2018 led to a large increase.
 * May 28, 2019, increase of 3.14%: The former president of PSD, Liviu Dragnea, is definitively convicted. The stock market is positively affected.
+
+## Estimating the models
+
+### BEL 20
+![Screenshot](Images/Testing_LSTM_BEL_20.png)
+![Screenshot](Images/Testing_GRU_BEL_20.png)
+
+## Forecasts
+
+### BEL 20
+![Screenshot](Images/Forecast_LSTM_BEL_20.png)
+![Screenshot](Images/Forecast_GRU_BEL_20.png)
