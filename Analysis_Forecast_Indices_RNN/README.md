@@ -90,6 +90,10 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 ![Screenshot](Images/Testing_LSTM_SMI.png)
 ![Screenshot](Images/Testing_GRU_SMI.png)
 
+### BET
+![Screenshot](Images/Testing_LSTM_BET.png)
+![Screenshot](Images/Testing_GRU_BET.png)
+
 ## Forecasts
 
 ### BEL 20
@@ -99,4 +103,9 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 ### SMI
 ![Screenshot](Images/Forecast_LSTM_SMI.png)
 ![Screenshot](Images/Forecast_GRU_SMI.png)
+
+### BET
+
+![Screenshot](Images/Forecast_LSTM_BET.png)
+![Screenshot](Images/Forecast_GRU_BET.png)
 
