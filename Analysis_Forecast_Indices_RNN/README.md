@@ -27,13 +27,13 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 ![Screenshot](Images/Evolution_yields_BEL_30_09_2020.png)
 
 * 29 June 2012, 3.80% increase: The european leaders manage to reach an agreement on providing assistance to troubled Euro area banks.
-* 17 Octomber 2014, 3.47% increase: Benoît Coeuré, member of the executive council of European Central Bank (ECB), announces that the central bank is going to start to buy debt instrument from the private sector. Also, he affirms that it is too early to talk about a possible recession in Germany. 
+* 17 Octomber 2014, 3.47% increase: Benoît Coeuré, member of the executive council of European Central Bank (ECB), announces that the central bank is going to start buying debt instrument from the private sector. Also, he affirms that it is too early to talk about a possible recession in Germany. 
 * 24 august 2015, 4.99% decrease: The decrease is caused by the sudden sharp collapse of stocks in China and other Asian markets. Another factor is the possible slowdown in the Chinese economy and the low price for oil, which is hitting exporting countries and drilling companies hard.
 * 8 february 2016, 3.45% decrease: Amplifying fears about a slowdown in global economic growth and speculation about the possibility of a successful Brexit have led to a sharp decline.
 * 24 June 2016 and 27 June 2016 with decreases of 6.40% and 4.06%: Investors' reaction to the Brexit result has brought instability to the stock market over a longer period of time
 * 25 August 2015, 3.87% increase: Concerns about the slowdown in the Chinese economy have eased, with China's central bank announcing a one-year decline in the bank lending rate to 4.6% from 4.85%.
 * 24 April 2017, 3.11% increase: The increase is driven by the results of the first round of the French presidential election. Another factor is the polls where it was expected that Emmanuel Macron would defeat Marine Le Pen in the second round.
-* 6 december 2018, 3.42% decrease: Tensions over a trade war between the US and China have led to the sale of a very large number of shares.
+* 6 December 2018, 3.42% decrease: Tensions over a trade war between the US and China have led to the sale of a very large number of shares.
 
 ### SMI
 
@@ -46,5 +46,15 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 ![Screenshot](Images/Evolution_yields_Dow_30_09_2020.png)
 
 ### BET
+
 ![Screenshot](Images/Price_Evolution_BET_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_BET_30_09_2020.png)
+
+* 3 January 2013, 3.47% increase:
+* 24 August 2015, 6.32% decrease:
+* 18 January 2016, 5.07% decrease:
+* 19 and 21 December 2018 with decreases of 11.21% and 5.06%:
+* 24 December 2018, 7.05% increase:
+* 14 January 2019, 4.23% decrease:
+* 4 February 2019, 3.75% increase:
+* 28 May 2019, 3.14% increase:
