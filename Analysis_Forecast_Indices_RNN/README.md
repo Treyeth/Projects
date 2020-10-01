@@ -1,6 +1,8 @@
 # Analysis and forecast of stock indices using RNNs
 
-The scope of this project is to analyse and to forecast the trend of Dow Jones Industrial Average, SMI, BEL 20 and BET stock market indices. The chosen period for this analysis is 01.02.2012-31.01.2020. In this project 2 types of models are used, LSTM and GRU. These models have the ability to take into account long-term dependencies, which make them adequate for time sequence modelling. The training set contains data from 01.02.2012 until 31.12.2018 and the train set from 01.01.2019 up until 31.01.2020. The dinamic forecasts use sequences with updated after 15 days forecasted. In order to observe the accuracy, the forecasts are compared with the real values in the testing set. 
+The scope of this project is to analyse and to forecast the trend of Dow Jones Industrial Average, SMI, BEL 20 and BET stock market indices. The chosen period for this analysis is 01.02.2012-31.01.2020. In this project 2 types of models are used, LSTM and GRU. 
+
+These models have the ability to take into account long-term dependencies, which make them adequate for time sequence modelling. The training set contains data from 01.02.2012 until 31.12.2018 and the train set from 01.01.2019 up until 31.01.2020. The dinamic forecasts use sequences with updated after 15 days forecasted. In order to observe the accuracy, the forecasts are compared with the real values in the testing set. 
 
 ## Intro
 
@@ -50,11 +52,11 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 ![Screenshot](Images/Price_Evolution_BET_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_BET_30_09_2020.png)
 
-* 3 January 2013, 3.47% increase:
-* 24 August 2015, 6.32% decrease:
-* 18 January 2016, 5.07% decrease:
-* 19 and 21 December 2018 with decreases of 11.21% and 5.06%:
-* 24 December 2018, 7.05% increase:
-* 14 January 2019, 4.23% decrease:
-* 4 February 2019, 3.75% increase:
-* 28 May 2019, 3.14% increase:
+* January 3, 2013, increase of 3.47%: Extension of the trading program
+* August 24, 2015, decrease of 6.32%: The decrease is caused by the sudden collapse of stocks in China and other markets in Asia.
+* January 18, 2016, decrease of 5.07%: The decrease of the oil price sent a negative feeling to the investors on the Romanian market as well.
+* December 19, 2018 and December 21, 2018 with decreases of 11.21% and 5.06%, respectively: Introduction of new taxes for banks and for the telecom and energy sectors, as well as capping the gas price.
+* December 24, 2018, increase of 7.05%: Recovery reaction as a result of the decrease on December 19 and 21, 2018, a decrease that was based on subjective factors.
+* January 14, 2019, decrease of 4.23%: The appearance of some information regarding a possible change of the tax on banking assets, a tax that would have been calculated and paid quarterly instead of annually.
+* February 4, 2019, growth of 3.75%: The good financial results of companies in 2018 led to a large increase.
+* May 28, 2019, increase of 3.14%: The former president of PSD, Liviu Dragnea, is definitively convicted. The stock market is positively affected.
