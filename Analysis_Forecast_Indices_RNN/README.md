@@ -22,6 +22,7 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 
 ## Event analysis
 
+### BEL 20
 ![Screenshot](Images/Price_Evolution_BEL_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_BEL_30_09_2020.png)
 
@@ -34,11 +35,16 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 * 24 April 2017, 3.11% increase: The increase is driven by the results of the first round of the French presidential election. Another factor is the polls where it was expected that Emmanuel Macron would defeat Marine Le Pen in the second round.
 * 6 december 2018, 3.42% decrease: Tensions over a trade war between the US and China have led to the sale of a very large number of shares.
 
+### SMI
+
 ![Screenshot](Images/Price_Evolution_SMI_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_SMI_30_09_2020.png)
+
+### Dow Jones
 
 ![Screenshot](Images/Price_Evolution_DJI_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_Dow_30_09_2020.png)
 
+### BET
 ![Screenshot](Images/Price_Evolution_BET_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_BET_30_09_2020.png)
