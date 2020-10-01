@@ -20,6 +20,8 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 
 ![Screenshot](Images/Histogram_30_09_2020.png)
 
+## Event analysis
+
 ![Screenshot](Images/Price_Evolution_BEL_30_09_2020.png)
 ![Screenshot](Images/Evolution_yields_BEL_30_09_2020.png)
 
