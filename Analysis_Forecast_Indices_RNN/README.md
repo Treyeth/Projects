@@ -84,13 +84,14 @@ BEL 20 is the reference index from Euronext Brussels, composed by between 10 and
 
 Finding a suitable model consists in adjusting the hyperparameters as best as possible in order to obtain accurate predictions. The optimal values of the hyperparameters are found and adjusted by evaluating the accuracy of the models on the test set by the mean square error.
 
-The predictions are generated dynamically and will be based on a window size of 60, where each sequence helps to predict 15 values until it is changed. To predict the next 15 values, the sequence changes to 45 real values plus the previously generated predictions. At some point you will only get to use the predictions to generate new values. Dynamic forecasting also tells us if the model has overfitted the drive set.
+The predictions are generated dynamically and will be based on a window size of 60, where each sequence helps to predict 15 values until it is changed. To predict the next 15 values, the sequence changes to 45 real values plus the previously generated predictions. At some point you will only get to use the predictions to generate new values. Dynamic forecasting also tells us if the model has overfitted on the train set.
 
 In finding an optimal value for the size of the window, it was taken into account that it must not be too small to be able to capture dependencies in the longer term, but not too large to add noise in sequences, which would lead to an overfit model.
 
 Within the LSTM and GRU models, a dropout layer set at 20% was included after each LSTM / GRU layer to prevent overfitting and a learning rate of 0.001. At the same time, a dense layer will be used to generate the outputs. To measure the accuracy, predictions will be made based on the test set.
 
 ### BEL 20
+
 ![Screenshot](Images/Testing_LSTM_BEL_20.png)
 
 For the BEL 20 index, the found LSTM model has 4 LSTM layers with 60 neurons each. The model is run for 100 epochs with a learning rate of 0.001. The parameters are updated after every 128 observations. The model has a mean square error of 0.00007994.
@@ -100,6 +101,7 @@ For the BEL 20 index, the found LSTM model has 4 LSTM layers with 60 neurons eac
 Regarding the GRU model, it has 3 GRU layers with a number of neurons of 256, 256, respectively 64. It is run for 30 epochs with a learning rate of 0.001, and the parameters are updated after every 128 observations. Its MSE is 0.00008760. It can be seen that the models managed to capture quite well the properties of the test set.
 
 ### SMI
+
 ![Screenshot](Images/Testing_LSTM_SMI.png)
 ![Screenshot](Images/Testing_GRU_SMI.png)
 
@@ -109,12 +111,14 @@ The GRU model of the SMI index has 3 GRU layers with 60 neurons each and is trai
 The models have approximately the same square mean error, 0.00005249 for the LSTM model and 0.00005285 for the GRU model.
 
 ### BET
+
 ![Screenshot](Images/Testing_LSTM_BET.png)
 ![Screenshot](Images/Testing_GRU_BET.png)
 
 The LSTM model of the BET index has 4 LSTM layers with a number of neurons of 128 for the first 3 layers and 64 for the last LSTM layer. The GRU model has 4 GRU layers with a number of 60 neurons each. These are run for 70 epochs, respectively 30 epochs. For every 512 observations and 28 observations, respectively, the parameters are updated for the LSTM and GRU model. GRU has a mean square error of 0.00005736 compared to 0.00009880 in the case of LSTM.
 
 ### Dow Jones
+
 ![Screenshot](Images/Forecast_LSTM_Dow_Jones.png)
 ![Screenshot](Images/Testing_LSTM_Dow_Jones.png)
 
@@ -125,10 +129,12 @@ In the case of the GRU model, it has 4 GRU layers with a number of neurons of 12
 ## Forecasts
 
 ### BEL 20
+
 ![Screenshot](Images/Forecast_LSTM_SMI.png)
 ![Screenshot](Images/Forecast_GRU_SMI.png)
 
 ### SMI
+
 ![Screenshot](Images/Forecast_LSTM_SMI.png)
 ![Screenshot](Images/Forecast_GRU_SMI.png)
 
@@ -138,5 +144,6 @@ In the case of the GRU model, it has 4 GRU layers with a number of neurons of 12
 ![Screenshot](Images/Forecast_GRU_Dow_Jones.png)
 
 ### Dow Jones
+
 ![Screenshot](Images/Testing_GRU_Dow_Jones.png)
 ![Screenshot](Images/Forecast_GRU_Dow_Jones.png)
