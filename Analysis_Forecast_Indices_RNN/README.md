@@ -130,8 +130,8 @@ In the case of the GRU model, it has 4 GRU layers with a number of neurons of 12
 
 ### BEL 20
 
-![Screenshot](Images/Forecast_LSTM_SMI.png)
-![Screenshot](Images/Forecast_GRU_SMI.png)
+![Screenshot](Images/Forecast_LSTM_BEL_20.png)
+![Screenshot](Images/Forecast_GRU_BEL_20.png)
 
 ### SMI
 
