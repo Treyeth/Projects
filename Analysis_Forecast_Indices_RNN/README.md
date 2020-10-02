@@ -100,9 +100,9 @@ Within the LSTM and GRU models, a dropout layer set at 20% was included after ea
 
 ![Screenshot](Images/Testing_LSTM_BEL_20.png)
 
-For the BEL 20 index, the found LSTM model has 4 LSTM layers with 60 neurons each. The model is run for 100 epochs with a learning rate of 0.001. The parameters are updated after every 128 observations. The model has a mean square error of 0.00007994.
-
 ![Screenshot](Images/Testing_GRU_BEL_20.png)
+
+For the BEL 20 index, the found LSTM model has 4 LSTM layers with 60 neurons each. The model is run for 100 epochs with a learning rate of 0.001. The parameters are updated after every 128 observations. The model has a mean square error of 0.00007994.
 
 Regarding the GRU model, it has 3 GRU layers with a number of neurons of 256, 256, respectively 64. It is run for 30 epochs with a learning rate of 0.001, and the parameters are updated after every 128 observations. Its MSE is 0.00008760. It can be seen that the models managed to capture quite well the properties of the test set.
 
