@@ -147,3 +147,17 @@ In the case of the GRU model, it has 4 GRU layers with a number of neurons of 12
 
 ![Screenshot](Images/Testing_GRU_Dow_Jones.png)
 ![Screenshot](Images/Forecast_GRU_Dow_Jones.png)
+
+## Conclusions
+
+  In the first part of the project it was discovered that the BEL 20, Dow Jones and SMI stock indices follow a leptocurtic distribution with left asymmetry, and the BET index a mesocurtic distribution with left asymmetry. It was also observed that the BET index had the largest variations from one day to the next. 
+
+  The main causes that led to sudden increases and decreases during the analyzed period are political events such as Brexit or the presidential elections in France, as well as those related to inflationary fears, the emergence of a possible recession, the slowdown in global economic growth. Other events that had a significant impact included the US-China trade war, monetary policies adopted by some countries and the financial reports of stock market firms.
+
+  In estimating the LSTM and GRU models, the loss is measured by MSE, and the hyperparameters have been optimized so as to reduce the MSE value as much as possible. 
+
+  All models included a dropout layer set at 20% after each LSTM / GRU layer in order to avoid overfitting and a learning rate of 0.001. The model parameters were updated after a different number of observations depending on the model. Each sequence was composed of 60 values to predict the next value. In a first stage, the models were tested on the test set, and then dynamic predictions were generated for the entire test set with the sequence update every 15 predicted values.
+
+  Even if the results of the models are good on the test set, the trend forecast showed that the models fail to be accurate in all cases. The most accurate results are those achieved on the BET index, and the weakest on the Dow Jones index.
+
+  Due to the lack of precision of the models in predicting the trend, it can be concluded that forecasting only through the LSTM and GRU models is not a safe way to invest money on the stock market.
