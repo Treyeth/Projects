@@ -8,7 +8,7 @@ Key takeouts from the evolution seen above:
 
 * Psychology and Communications and Journalism majors are overwhelmingly women nowadays compared to the 1970's.
 
-* Health, Foreign Languages, Public Administration and Education was favorited by women and it still is today.
+* Health, Foreign Languages, Public Administration and Education was favorited by women from the 1970's and it still is today.
 
 * The most favorited majors of men are Computer Science and Engineering. 
 
