@@ -1,14 +1,14 @@
 # Analysis and forecast using ARMA-GARCH and ARMA-EGARCH
 
-The scope of this project was to model the volatility of DAX Performance, CAC40, S&P 500, Nikkei 225 indices from Germany, France, USA and Japan in order to generate 5 day forecasts on their stability. The analysed takes place between 27.02.2016 - 27.02.2018. In the empiric analysis two types of hybrid models are used: ARMA-GARCH and ARMA-EGARCH. For the errors of the model we take into account different types of distributions: normal distribution, t-student, skew-student, skew-generalized error distribution, normal inverse gaussian distribution, generalized hyperbolic and Johnson's SU distribution.
+The scope of this project was to model the volatility of DAX Performance, CAC40, S&P 500, Nikkei 225 indices from Germany, France, USA and Japan in order to generate 5 day forecasts on their stability. The period analysed takes place between 27.02.2016 - 27.02.2018. In the empiric analysis 2 types of hybrid models are used: ARMA-GARCH and ARMA-EGARCH. For the errors of the model we take into account different types of distributions: normal distribution, t-student, skew-student, skew-generalized error distribution, normal inverse gaussian distribution, generalized hyperbolic and Johnson's SU distribution.
 
-The Forecasts are generated dynamically on a 5 day period and their accuracy is measured with mean squared error (MSE) and absolute mean error (MAE). It is also searched if the model with the lowest value of the Akaike criterion generates the best forecasts.
+The Forecasts are generated dynamically on a 5 day period and their accuracy is measured by mean squared error (MSE) and absolute mean error (MAE). In the project we also search if the model with the lowest value of the Akaike criterion generates the best forecasts.
 
 # Intro
 
-The analysis is made on the yield of the stock indices because the closing prices are not comparable and their associated time series is often not stationary. 
+The analysis is made on the yields of the stock indices because the closing prices are not comparable and their associated time series is often not stationary. 
 
-The DAX Performance index, also known as Deutscher Aktienindex includes the 30 most important companies in Germany which are traded on Frankfurt stock market.
+The DAX Performance index, also known as Deutscher Aktienindex includes the 30 most important companies in Germany which are traded on the Frankfurt stock market.
 
 CAC 40 is the reference index of the France stock market and represents a weighted measure of the 40 most important companies traded on Euronext Paris.
 
@@ -20,11 +20,11 @@ S&P 500 or Standard & Poor's 500 is a stock index from the USA which is based on
 
 ![Screenshot](Images/evolution_index.png)
 
-Looking at the evolution of the indices, it can be seen that the biggest decreases were recorded by the indices at the same time, at the end of July 2016 as a result of Brexit, result which sent shockwaves throughout the European Union. The fluctuations from the beginning of november 2016, which are more noticeable for S&P 500 and Nikkei 225 can be assigned to the USA presidential elections. The biggest increases for indices in Europe, CAC 40 and DAX Performance, from March 2016 can be assigned to a comeback after a decrease caused by the oil price which has decreased a lot. The increases from 27 april 2017 for the Europe indices are resulted from the France presidential election, where Emmanuel Macron has won. The last commun fluctuation was caused by fears of inflation which sent shockwaves throughout the world. 
+Looking at the evolution of the indices, it can be observed that the biggest decreases were recorded by the indices at the same time, at the end of July 2016 as a result of Brexit, result which sent shockwaves throughout the European Union. The fluctuations from the beginning of November 2016, which are more noticeable for S&P 500 and Nikkei 225, can be assigned to the USA presidential election. The biggest increases for indices in Europe, CAC 40 and DAX Performance, from March 2016 can be assigned to a comeback after a decrease caused by the oil price which has decreased a lot. The increases from 27 April 2017 for the Europe indices are resulted from the France presidential election, where Emmanuel Macron has won. The last commun fluctuation was caused by fears of inflation which sent shockwaves throughout the world. 
 
 # Estimating the ARMA models, testing the autocorrelation and the heteroskedasticity
 
-In order to find the parameters of the Autoregressive model (AR) and the Moving Average model (MA), multiple models are estimated with different values for the order of AR and MA. The model will be chosen based on the informational criterion Akaike (AIC). The model with the samllest value will be chosen as the best. 
+In order to find the parameters of the Autoregressive model (AR) and the Moving Average model (MA), multiple models are estimated with different values for the order of AR and MA. The model will be chosen based on the informational criterion Akaike (AIC). The model with the smallest value will be chosen as the best performing model. 
 
 We will take as an example for the next steps the DAX index:
 
@@ -55,7 +55,7 @@ Obtaining this information, we can now model the volatility with the help of GAR
 
 # Estimating ARMA-GARCH and ARMA-EGARCH, checking residuals and choosing the adequate model
 
-In this chapter, GARCH(1,1) and EGARCH(1,1) models will be estimated using multiple different distribution errors. In order to compare the forecasts with real data, we will leave the last 5 observations outside of the sample for each model. When choosing the most adequate models, the information criterion Akaike will be used. At the same, the forecasts for each model is compared using MSE and MAE. The validity of the model is afterwards checked by checking the standardised residuals in order to test if the autocorrelation is eliminated from the residuals and if they are homoskedastic.
+In this chapter, GARCH(1,1) and EGARCH(1,1) models will be estimated using multiple different distribution errors. In order to compare the forecasts with real data, we will leave the last 5 observations outside of the sample for each model. When choosing the most adequate models, the information criterion Akaike will be used. At the same time, the forecasts for each model are compared using MSE and MAE. The validity of each model is afterwards checked by checking the standardised residuals in order to test if the autocorrelation is eliminated from the residuals and if they are homoskedastic.
 
 | Model         | AIC.          | MSE   |   MAE | 
 | ------------- |:-------------:| -----:| ------:|
@@ -74,7 +74,7 @@ In this chapter, GARCH(1,1) and EGARCH(1,1) models will be estimated using multi
 |EGARCH-GHYP	|-6.7607	|0.000005602	|0.002229|
 |EGARCH-SGED	|-6.7660	|0.000007001	|0.002487|
 
-It seems that for the DAX index, the model which forecasts the best on a 5 day period is the ARMA(3,3)-GARCH(1,1) with a normal inverse distribution. If we look at AIC that model would be ARMA(3,3)-EGARCH(1,1) with a t-student distribution. Based on the above table, using a different distribution for the errors for the GARCH model, influences pretty much the forecasts. 
+It seems that for the DAX index, the model which forecasts the best on a 5 day period is the ARMA(3,3)-GARCH(1,1) with a normal inverse distribution. If we look at AIC that model would be ARMA(3,3)-EGARCH(1,1) with a t-student distribution. Based on the above table, using a different distribution for the errors for the GARCH model, influences a great deal the forecasts. 
 
 | Parameter      | DAX NIG  |
 | ------------- |:-------------:| 
@@ -113,7 +113,7 @@ Therefore, our models are valid and it is not needed to search for other ones.
 ## DAX Forecast
 ![Screenshot](Images/forecast_dax.png)
 
-Above, the 5 day forecast can be seen for the model ARMA(3,3) - GARCH(1,1) with an normal inverse distribution for the DAX Performance Index.
+The 5 day forecast can be seen above for the model ARMA(3,3) - GARCH(1,1) with an normal inverse distribution for the DAX Performance Index.
 
 | Day      | Observed Yield      | ARMA(3,3) GARCH(1,1) NIG |
 | ------------- |:-------------:| -----:|
@@ -139,11 +139,12 @@ In the two images above, the forecasts seen are done by the models with the best
 |26.02.2018	|0.005044202	|0.002247129	|0.001998859|
 |27.02.2018	|-0.000061673	|0.000877447	|0.000081398|
 
-As in the case of DAX Performance, the models of the CAC 40 index manage to generate accurate forecasts over the 5 day period despite the same type of fluctuation generated by the Dow Jones Industrial Average index.
+As in the case of DAX Performance, the 2 CAC 40 models manage to generate accurate forecasts over the 5 day period despite the same type of fluctuation generated by the Dow Jones Industrial Average index.
 ## S&P 500 Forecast
 ![Screenshot](Images/forecast_s&p_500.png)
 
 For the S&P 500 index, we can see the forecasts done by the model ARMA(1,1)-GARCH(1,1) with a skewed t-student distribution.
+
 | Day      | Observed Yield      | ARMA(1,1) GARCH(1,1) SSTD |
 | ------------- |:-------------:| -----:|
 |21.02.2018	|-0.0055116646	|0.000954799|
@@ -167,19 +168,19 @@ In the two pictures above, we have the model ARMA(3,3)-GARCH(1,1) with a normal 
 |26.02.2018	|0.0118445	|0.0034557	|0.0039466|
 |27.02.2018	|0.0106067	|0.0012539	|0.0017038|
 
-In the case of the Nikkei 225 index, the model has managed to capture most of the fluctuation of the index generated by the sudden decreases of Dow Jones at the beginning of the Month.
+In the case of the Nikkei 225 index, the model has managed to capture most of the fluctuation of the index generated by the sudden decreases of Dow Jones at the beginning of the month.
 
 The fluctuations of the Nikkei 225 index seem to be higher than those of the European indices, Dax Performance and CAC 40. 
 
 ## Forecast conclusions
 
-Comparing all the forecasts, we can conclude that the best forecasts were obtained from Europe for the CAC 40 and DAX Peformances indices, followed by Nikkei 225 from Japan and S&P 500 from SUA.
+Comparing all the forecasts, we can conclude that the best forecasts were obtained from indices in Europe (CAC 40 and DAX Peformances indices), followed by Nikkei 225 from Japan and S&P 500 from SUA.
 
 Analysing the yield of the stock indices DAX Performance, CAC 40, S&P 500 and Nikkei 225 over the period 27.02.2016-27.02.2018 it was discovered that the symetric GARCH models offer better results than the asymetric EGARCH model. 
 
 The forecasts of the indices were influenced by the high volatility from the Dow Jones Industrial Average index at the beginning of the month of February. 
 
-As we've seen, the ARMA-GARCH models can learn the volatility of the stock indices pretty well and can generate short term forecasts which can be close to realty in the case that no high volatility events occur. However, in order to get the best forecasts, it is necessary to take into account different distributions of error for the GARCH and EGARCH models and to ignore the information criterion AIC because it doesn't give the best forecasting model. 
+As we've seen, the ARMA-GARCH models can learn the volatility of the stock indices pretty well and can generate short term forecasts which can be close to realty in the case that no high volatility events occur. However, in order to get the best forecasts, it is necessary to take into account different distributions of error for the GARCH and EGARCH models and ignore the information criterion AIC because it doesn't always give the best forecasting model. 
 
 
 
