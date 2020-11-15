@@ -1,4 +1,4 @@
 
-![Screenshot](Images/bachelor_degrees.jpeg)
+![Screenshot](Images/bachelor_degrees.png)
 
 The data was made publicly available by The Department of Education Statistics which releases a data set annually containing the percentage of bachelor's degrees granted to women. The data is available on Randon Olson's website [here](http://www.randalolson.com/wp-content/uploads/percent-bachelors-degrees-women-usa.csv)
