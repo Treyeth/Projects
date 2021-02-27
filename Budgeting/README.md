@@ -8,4 +8,6 @@ Sharing the cost
 Automatic tracking of the 20 most expensive things
 Multiple categories to choose from and easy ways to create new ones
 
+![Screenshot](Images/dashboard_1_person.png)
+![Screenshot](Images/expenses_1_person.png)
 
