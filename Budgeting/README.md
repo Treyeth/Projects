@@ -11,7 +11,20 @@ Some features it provides:
 
 Below you can find screenshots from the file:
 
+Dashboard sheet:
+
 ![Screenshot](Images/dashboard_1_person.png)
+
+The expenses sheet:
+
 ![Screenshot](Images/expenses_1_person.png)
 
 For easy data filling from invoices I would recommend something like [TextSniper](https://textsniper.app)
+
+There is also a version designed for two versions:
+
+Dashboard sheet:
+![Screenshot](Images/dashboard_2_persons.png)
+
+The expenses sheet:
+![Screenshot](Images/expenses_2_persons.png)
