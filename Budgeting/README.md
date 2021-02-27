@@ -1,4 +1,4 @@
-# This project consists in providing a way to track the expenses in a easy way.#
+# This project consists in providing a way to track the expenses in a easy way.
 
 Some features it provides:
 
@@ -14,3 +14,4 @@ Below you can find screenshots from the file:
 ![Screenshot](Images/dashboard_1_person.png)
 ![Screenshot](Images/expenses_1_person.png)
 
+For easy data filling from invoices I would recommend something like [TextSniper](https://textsniper.app)
