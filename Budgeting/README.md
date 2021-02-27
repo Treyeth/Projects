@@ -21,7 +21,10 @@ The expenses sheet:
 
 For easy data filling from invoices I would recommend something like [TextSniper](https://textsniper.app)
 
-There is also a version designed for two versions:
+There is also a version designed for two persons:
+
+In this version instead of the share feature you can choose the person who bought it or even split in 2 by typing "I" or in 3 by typing "B".
+The costs which are split will be automatically added to the dashboard.
 
 Dashboard sheet:
 ![Screenshot](Images/dashboard_2_person.png)
