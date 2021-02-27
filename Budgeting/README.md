@@ -24,7 +24,7 @@ For easy data filling from invoices I would recommend something like [TextSniper
 There is also a version designed for two versions:
 
 Dashboard sheet:
-![Screenshot](Images/dashboard_2_persons.png)
+![Screenshot](Images/dashboard_2_person.png)
 
 The expenses sheet:
-![Screenshot](Images/expenses_2_persons.png)
+![Screenshot](Images/expenses_2_person.png)
