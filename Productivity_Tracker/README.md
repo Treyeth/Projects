@@ -4,4 +4,4 @@ Dashboard sheet:
 ![Screenshot](Images/dashboard.png)
 
 The expenses sheet:
-![Screenshot](Images/gift1.png)
+![Screenshot](Images/gift1.gif)
