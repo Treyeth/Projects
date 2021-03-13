@@ -1,4 +1,4 @@
-# These excel files provide a way to track the expenses in a easy way.
+# Budgeting template - budget the easy way
 
 Some features it provides:
 
