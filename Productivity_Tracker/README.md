@@ -3,5 +3,15 @@ test
 Dashboard sheet:
 ![Screenshot](Images/dashboard.png)
 
-The expenses sheet:
-![Screenshot](Images/gift1.gif)
+Reading sheet:
+![Screenshot](Images/reading.png)
+
+Sport sheet:
+![Screenshot](Images/sport.png)
+
+Audiobook sheet:
+![Screenshot](Images/audiobook.png)
+
+Learning sheet:
+![Screenshot](Images/learning.png)
+
