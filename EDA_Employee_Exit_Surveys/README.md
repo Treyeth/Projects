@@ -10,7 +10,7 @@ In this project we will use the exit surveys from employees of the <b>Department
 
 ![Screenshot](EDA_Employee_Exit_Surveys/Images/age_employees_dete.png)
 
-![Screenshot](EDA_Employee_Exit_Surveys/Images/age_employees_tafe.png)
+![Screenshot](Images/age_employees_tafe.png)
 
 ![Screenshot](EDA_Employee_Exit_Surveys/Images/resignations_by_gender_dissatisfaction.png)
 
