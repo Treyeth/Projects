@@ -18,6 +18,8 @@ Project 4. Excel. [Productivity tracker](https://github.com/Treyeth/Projects/tre
 
 Project 5. Python. [Bachelor Degrees EDA](https://github.com/Treyeth/Projects/tree/master/Bachelor_degrees_EDA)
 
+Project 6. Python. [EDA_Employee_Exit_Surveys](https://github.com/Treyeth/Projects/tree/master/EDA_Employee_Exit_Surveys)
+
 I'm a firm believer that we can get a better perspective of our world and change a lot of things by using data.
 
 "If you torture the data long enough, it will confess." - Ronald Coase
