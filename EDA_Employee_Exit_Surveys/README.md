@@ -42,14 +42,14 @@ Meanwhile, in <i>tafe_survey.csv</i>:
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/resignations_by_age_dissatisfaction.png" width="450">
 </p>
 
-<h2> Recap </h2>
+<h2> Project steps </h2>
 
 ---
 
 * Explored the data and figured out how to prepare it for analysis
 * Corrected some of the missing values
 * Dropped any data not needed for our analysis
-* Renamed our columns
+* Renamed the columns
 * Verified the quality of our data
 * Created a new institute_service column
 * Cleaned the Contributing Factors columns
@@ -58,6 +58,8 @@ Meanwhile, in <i>tafe_survey.csv</i>:
 * Cleaned the institute_service column
 * Handled the missing values in the dissatisfied column
 * Aggregated the data
+* Explored the dissatisfied people per career stage
+* Pivoted the data in order to create plots for dissatisfaction by age and gender
 
 <h2> Conclusions </h2>
 
