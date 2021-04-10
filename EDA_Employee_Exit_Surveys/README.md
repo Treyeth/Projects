@@ -23,9 +23,9 @@ Meanwhile, in <i>tafe_survey.csv</i>:
     <li><b>LengthofServiceOverall. Overall Length of Service at Institute (in years)</b>: The length of the person's employment (in years)
 </ul>
 
-<p float="center">
-<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_dete.png" width="350">
-<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_tafe.png" width="350">
+<p align="center">
+<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_dete.png" width="300">
+<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_tafe.png" width="300">
 </p>
 
 <p align="center">
