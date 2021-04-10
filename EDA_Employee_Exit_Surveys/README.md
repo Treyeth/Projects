@@ -6,8 +6,8 @@ In this project we will use the exit surveys from employees of the <b>Department
 
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_dete.png" width="300">
 
+<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_tafe.png" width="300">
 
-![Screenshot](Images/employee_exit_experience_tafe.png)
 
 ![Screenshot](Images/age_employees_dete.png)
 
