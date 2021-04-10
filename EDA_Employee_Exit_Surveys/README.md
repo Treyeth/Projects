@@ -34,13 +34,11 @@ Meanwhile, in <i>tafe_survey.csv</i>:
 </p>
 
 <p align="center">
-<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/dissatisfied_career_stage.png" width="450">
+<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/dissatisfied_career_stage.png" width="400">
 </p>
 
 <p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/resignations_by_gender_dissatisfaction.png" width="450">
-</p>
-
-<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/resignations_by_age_dissatisfaction.png" width="450">
 </p>
+
