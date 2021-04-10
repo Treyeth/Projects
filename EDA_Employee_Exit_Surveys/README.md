@@ -42,16 +42,6 @@ Meanwhile, in <i>tafe_survey.csv</i>:
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/resignations_by_age_dissatisfaction.png" width="450">
 </p>
 
-<h2> Conclusions </h2>
-
----
-
-Our initial questions were:
-
-1. Are employees who only worked for the institutes for a short period of time resigning due to some kind of dissatisfaction? What about employees who have been there longer?
-
-2. Are younger employees resigning due to some kind of dissatisfaction? What about older employees?
-
 <h2> Recap </h2>
 
 ---
@@ -69,6 +59,15 @@ Our initial questions were:
 * Handled the missing values in the dissatisfied column
 * Aggregated the data
 
+<h2> Conclusions </h2>
+
+---
+
+Our initial questions were:
+
+1. Are employees who only worked for the institutes for a short period of time resigning due to some kind of dissatisfaction? What about employees who have been there longer?
+
+2. Are younger employees resigning due to some kind of dissatisfaction? What about older employees?
 * Based on the analysis, it can be said that the most dissatisfied employees were those <b>Experienced (3-7 years of work in the institute)</b> and the <b>Veteran ones (11 + years)</b>.
 * The most common age bracket for the workers in both institutes is <b>41-45</b> years old.
 * <b>TAFE</b> has a problem with <b>New employees (< 3 years)</b> and <b>Experienced ones (3-7 years)</b> resigning, while <b>DETE</b> has a problem with the more experienced ones <b>Veteran (11+ years)</b> and <b>Established (7-11 years)</b>.
