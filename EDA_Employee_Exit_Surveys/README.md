@@ -4,8 +4,7 @@
 
 In this project we will use the exit surveys from employees of the <b>Department of Education, Training and Employment (DETE)</b> and the <b>Technical and Further Education (TAFE)</b> institute in Queensland, Australia. The TAFE exit survey can be found __[here](https://data.gov.au/dataset/ds-qld-89970a3b-182b-41ea-aea2-6f9f17b5907e/details?q=exit%20survey)__ and the survey for the DETE __[here](https://data.gov.au/dataset/ds-qld-fe96ff30-d157-4a81-851d-215f2a0fe26d/details?q=exit%20survey)__ .
 
-![Screenshot](Images/employee_exit_experience_dete.png | width=400)
-<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_dete.png" width="48">
+<img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_dete.png" width="400">
 ![Screenshot](Images/employee_exit_experience_tafe.png)
 
 ![Screenshot](Images/age_employees_dete.png)
