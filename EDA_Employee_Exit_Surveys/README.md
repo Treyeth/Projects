@@ -8,15 +8,26 @@ In this project we will use the exit surveys from employees of the <b>Department
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_dete.png" width="350">
 </p>
 
+<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/employee_exit_experience_tafe.png" width="350">
+</p>
 
+<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/age_employees_dete.png" width="500">
+</p>
 
+<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/age_employees_tafe.png" width="500">
+</p>
 
+<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/dissatisfied_career_stage.png" width="500">
+</p>
 
+<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/resignations_by_gender_dissatisfaction.png" width="500">
+</p>
 
+<p align="center">
 <img src="https://github.com/Treyeth/Projects/blob/master/EDA_Employee_Exit_Surveys/Images/resignations_by_age_dissatisfaction.png" width="500">
-
+</p>
