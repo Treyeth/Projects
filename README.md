@@ -4,9 +4,9 @@ I'm Cristian, a graduate student of Quantitative Economics passionate about data
 
 Please find below the aforementioned projects:
 
-Project 1. R. [Analysis and Forecast of Stock Indices using RNNs](https://github.com/Treyeth/Projects/tree/master/Analysis_Forecast_Indices_RNN) 
+Project 1. Python. [Analysis and Forecast of Stock Indices using RNNs](https://github.com/Treyeth/Projects/tree/master/Analysis_Forecast_Indices_RNN) 
 
-Project 2. Python. [Volatility forecast of Stock Indices using ARMA-GARCH models](https://github.com/Treyeth/Projects/tree/master/Volatility_Forecast_Stock)
+Project 2. R. [Volatility forecast of Stock Indices using ARMA-GARCH models](https://github.com/Treyeth/Projects/tree/master/Volatility_Forecast_Stock)
 
 While doing my masters, I also started to work as a Data Analytics Specialist, which lasted for 2.5 years. The workplace helped me improve my R, Excel and SPSS skills. Currently, I'm working as a Data Governance Analyst, improving my Python and SQL skills.
 
